@@ -1,0 +1,327 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  
+}
+
+main {
+  height: 100%;
+}
+
+.hat {
+  /* h-m */
+
+position: absolute;
+width: 1093px;
+height: 72px;
+left: 280px;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 0px 0px 10px 10px;
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.hat img, div{
+  margin: 5px;
+}
+
+.hat_items {
+  display: flex;
+}
+
+
+.hat_buttons {
+    padding: 5px; /* Добавление внутренних отступов */
+    border: none; /* Удаление границы кнопки */
+    background: transparent; /* Удаление фона кнопки */
+    border-radius: 50%; /* Округление краев кнопки до круга */
+    
+    cursor: pointer;
+    outline: none;
+}
+
+.hat_buttons img {
+    width: 24px; /* Уменьшение ширины изображения */
+    height: 24px; /* Уменьшение высоты изображения */
+    border-radius: 50%; /* Округление краев изображения до круга */
+}
+.hat_buttons img:hover {
+    filter: brightness(3); /* Увеличение яркости при наведении, можно настроить значение по вашему вкусу */
+    transition: filter 0.5s ease; /* Плавное изменение яркости в течение 0.5 секунд */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside{
+	/* menu */
+
+position: absolute;
+width: 260px;
+height: 100%;
+left: 0px;
+
+
+background: #FCFCFC;
+
+ 
+
+}
+.circle {
+position: absolute;
+left: 1.89%;
+right: 86.79%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 2px solid #37BE55;
+}
+
+aside button {
+        border: none;
+        background-color: white;
+        width: 180px;
+        height: 44px;
+        margin-left: 40px;
+        font-family: 'Google Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: justify;
+        
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #263238;
+        
+        border-radius: 10px;
+
+    }
+    aside button img {
+
+    }
+
+    aside button:hover {
+        border: none;
+        background-color: rgb(223, 242, 227);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.button-with-image img {
+        width: 24px; /* Установите нужный размер для изображения */
+        height: 24px;
+        margin-right: 5px; /* Добавьте отступ между изображением и текстом */
+    }
+
+    .button-with-image:hover {
+        border: none;
+        background-color: rgb(223, 242, 227);
+    }
+
+
+.container {
+    position: relative;
+}
+
+.container img {
+    width: 130px;
+    height: 14px;
+    margin: 40px 0 0 45px; /* Adjust the margin as needed */
+}
+.round-button {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            
+            background-size: 20px;
+            background-position: center;
+            color: #9e8b8b;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            left: 150px;
+            top: 30px;
+            box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        aside {
+            width: 260px; /* Изначальная ширина */
+            transition: width 0.5s; /* Анимация изменения ширины */
+            overflow-x: hidden; /* Предотвращение горизонтальной прокрутки, если контент станет шире */
+        }
+ .content-block {
+            padding: 20px;
+        }
+
+        .content1 {
+            display: block;
+        }
+
+        .content2 {
+            display: none;
+        }
+
+
+.hss
+font-weight: bold; /* Make the text bold */
+
+
+
+.back{
+/* Rectangle 140 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 20px;
+top: 35px;
+ background: #FFFFFF;
+    border-radius: 220px;
+    border: 2px solid white;
+box-shadow: 0px 0px 5px grey;
+}
+
+aside span {
+ font-family: 'Google Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 13px;
+      
+      margin-left: 40px;
+display: flex;
+align-items: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+        color: #B9B9B9;
+       
+    }
+
+
+iframe {
+	/* Maps / Full Map */
+
+  position: unset;
+  height: 100%;
+  background: #FFFFFF;
+  width: 100%;
+
+}
+
+.company_owner_ {
+  display: flex;
+
+  width: 180px;
+}
+
+
+
+
+
+
+.vopros{
+/* Question */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+
+
+input[type=checkbox]{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  right: 10px;
+  width: 50px;
+  height: 30px;
+  top: 16px;
+  background: #7FABFF;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: #FFE500;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: black;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+
+
+
+
+._line {
+  height: 18px;
+  border-right: 2px solid #B9B9B9;
+  margin-top: 23px;
+  margin-left: 19px;
+  margin-right: 27px;
+
+}
+
+
+
+
+
+
+

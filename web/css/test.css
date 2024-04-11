@@ -1,0 +1,448 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #F4F4F4;
+  
+}
+
+main {
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dised{
+	/* menu */
+
+position: absolute;
+width: 104px;
+height: 750px;
+top: 0px;
+left: 0px;
+
+
+background: #FCFCFC;
+
+ 
+
+}
+.circle {
+position: absolute;
+left: 1.89%;
+right: 86.79%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 2px solid #37BE55;
+}
+
+dised button {
+    border: none;
+    background-color: white;
+    width: 47px;
+    padding-left: 14px;
+    height: 44px;
+    margin-left: 29px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: justify;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #263238;
+    border-radius: 10px;
+}
+    dised button img {
+
+    }
+
+    dised button:hover {
+        border: none;
+        background-color: rgb(223, 242, 227);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.button-with-image img {
+        width: 24px; /* Установите нужный размер для изображения */
+        height: 24px;
+        margin-right: 5px; /* Добавьте отступ между изображением и текстом */
+    }
+
+    .button-with-image:hover {
+        border: none;
+        background-color: rgb(223, 242, 227);
+    }
+
+
+.container {
+    position: relative;
+}
+
+.container img {
+    width: 130px;
+    height: 14px;
+    margin: 40px 0 0 45px; /* Adjust the margin as needed */
+}
+.round-button123 {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            background-image: url('../pictures/str1.png');
+            background-size: 20px;
+            background-position: center;
+            color: #9e8b8b;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            left: 10px;
+            top: 40px;
+            box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+        }
+.round-button {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 180px;
+    top: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: black;
+    cursor: pointer;
+    outline: none;
+    background-color: #FCFCFC;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+    background-color: #FCFCFC;
+}
+
+.round-button img {
+   
+    object-fit: cover;
+}
+        dised {
+           
+            overflow-x: hidden; /* Предотвращение горизонтальной прокрутки, если контент станет шире */
+        }
+ .content-block {
+            padding: 20px;
+        }
+
+        .content1 {
+            display: block;
+        }
+
+        .content2 {
+            display: none;
+        }
+
+
+
+.back{
+/* Rectangle 140 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 20px;
+top: 35px;
+ background: #FFFFFF;
+    border-radius: 220px;
+    border: 2px solid white;
+box-shadow: 0px 0px 5px grey;
+}
+
+dised span {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #B9B9B9;
+    flex-direction: column-reverse;
+}
+
+asides {
+    position: absolute;
+    width: 259px;
+    height: 752px;
+    top: -7px;
+    left: 109px;
+    background: #FFFFFF;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+asides button {
+        border: none;
+        background-color: white;
+        width: 180px;
+        height: 44px;
+        margin-left: 36px;
+        font-family: 'Google Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: justify;
+        margin-top: 17px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #B9B9B9;
+        
+        border-radius: 10px;
+
+    }
+    asides button img {
+
+    }
+
+    asides button:hover {
+        border: none;
+        background-color: rgb(223, 242, 227);
+    }
+asides span {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 19px;
+    line-height: 13px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    
+    color: black;
+    flex-direction: column-reverse;
+}
+
+.sub_menu {
+  text-align: left;
+  width: 260px;
+  /*! height: 100%; */
+  background-color: white;
+  margin: 0 0 0 3px;
+  font-weight: bold;
+}
+
+.sub_menu span{
+  padding-top: 20px;
+  display: block;
+margin: 0 0 -6px 14%;
+
+}
+
+#sub_menu_exit_button {
+  content: url('../images/arrows.svg');
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 80%;
+  border: none;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+.customization-info {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+}
+
+
+.buttons-container {
+    display: flex;
+    margin-left: 101px;
+}
+
+.buttons-container span {
+    margin-left: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+}.blue-button {
+      background-color: #263238;
+    color: white;
+    width: 183px;
+    height: 45px;
+    border-radius: 13px;
+    margin-inline: 37px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+
+.reset {
+        background-color: #ffffff;
+    border: 3px solid #263238;
+    color: black;
+    width: 183px;
+    margin-right: 7px;
+    height: 45px;
+    border-radius: 11px;
+    margin-inline: 14px;
+    padding: 10px 59px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resete {
+    background-color: #ffffff;
+    border: 3px solid #263238;
+    color: black;
+    width: 183px;
+    margin-right: 7px;
+    height: 45px;
+    border-radius: 11px;
+    margin-inline: 14px;
+    padding: 10px 59px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: pre-wrap; /* или white-space: pre-line; */
+}
+
+
+
+aside{
+    /* menu */
+
+position: absolute;
+width: 260px;
+height: 100%;
+left: 0px;
+
+
+background: #FCFCFC;
+
+ 
+
+}
+.circle {
+position: absolute;
+left: 1.89%;
+right: 86.79%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 2px solid #37BE55;
+}
+
+aside button {
+        border: none;
+        background-color: white;
+        width: 180px;
+        height: 44px;
+        margin-left: 40px;
+        font-family: 'Google Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 17px;
+        text-align: justify;
+        
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #263238;
+        
+        border-radius: 10px;
+
+    }
+    aside button img {
+
+    }
+
+    aside button:hover {
+        border: none;
+        background-color: rgb(223, 242, 227);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
